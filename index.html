@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <!-- Fonts css -->
+    <link rel="stylesheet" href="./styles/fonts.css">
+
+    <!-- Normalize css -->
+    <link rel="stylesheet" href="./styles/normalize.css">
+
+    <!-- General  css -->
+    <link rel="stylesheet" href="./scss/main.css">
+    <title>Media Park Uz </title>
+</head>
+
+<body>
+
+
+    <header class="top__header">
+        <div class="container-xxl">
+            <div class="responsive__header">
+                <div>
+                    <form>
+                        <label for="check">
+                            <ion-icon class="checkbox" name="filter-outline"></ion-icon>
+                        </label>
+                        <input type="checkbox" id="check">
+                    </form>
+                </div>
+                <div>
+                    <a href="#">
+                        <h1>MEDIA<span>PARK</span></h1>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="#"><ion-icon name="location-outline"></ion-icon></a>
+                </div>
+            </div>
+            <div class="right">
+                <a href="tel"><ion-icon name="call-outline"></ion-icon> +998 71 203 33 33</a>
+                <a href="#"><ion-icon name="location-outline"></ion-icon>Tashkent</a>
+            </div>
+            <div class="left" id="left">
+                <ul>
+                    <li><a href="#">Biz haqimizda</a></li>
+                    <li><a href="#">Hamkorlik</a></li>
+                    <li><a href="#">Yuridik shaxslar uchun</a></li>
+                    <li><a href="#">Yetkazib berish</a></li>
+                    <li><a href="#">Dokonlar</a></li>
+                    <li><a href="#">Biz bilan boglanish</a></li>
+                    <li><a href="#">
+                            <select>
+                                <option value="Ozbek">Ozbekcha</option>
+                                <option value="Russciy">Русский</option>
+                                <option value="English">Inglizcha</option>
+                            </select>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <header class="container-xxl head__header mt-3">
+            <div class="logo d-flex gap-4">
+                <a href="3" class="text-danger fs-3 fw-bold">MEDIA<span class="text-primary">PARK</span></a>
+                <button class="btn btn-lg btn-danger d-flex gap-1 align-items-center"><ion-icon
+                        name="filter-outline"></ion-icon>Katalog</button>
+            </div>
+            <form class="d-flex align-items-center">
+                <input type="text" placeholder="Mahsulotlarni qidirish">
+                <button class="btn btn-danger"><ion-icon name="search-outline"></ion-icon></button>
+            </form>
+            <div class="btn-group">
+                <button class="btn">
+                    <ion-icon name="cube-outline" id="icon"></ion-icon>
+                    <span>Buyurtma holati</span>
+                </button>
+                <button class="btn">
+                    <ion-icon name="scale-outline" id="icon"></ion-icon>
+                    <span>Taqqoslash</span>
+                </button>
+                <button class="btn">
+                    <ion-icon name="cart-outline" id="icon"></ion-icon>
+                    <span>Savatcha</span>
+                </button>
+                <button class="btn">
+                    <ion-icon name="heart-outline" id="icon"></ion-icon>
+                    <span>Saralangan</span>
+                </button>
+                <button class="btn">
+                    <ion-icon name="person-outline" id="icon"></ion-icon>
+                    <span>Kirish</span>
+                </button>
+            </div>
+        </header>
+    </header>
+
+    <main class="container">
+        <div class="nav">
+            <ul class="d-flex align-items-center gap-4">
+                <li><a href="#" class="btn btn-success p-1">Aksiyalar</a></li>
+                <li><a href="#">Smartfonlar</a></li>
+                <li><a href="#">Muzlatgichlar</a></li>
+                <li><a href="#">Apple</a></li>
+                <li><a href="#">Noutbuklar</a></li>
+                <li><a href="#">Kir yuvish mashinalari</a></li>
+                <li><a href="#">Qahva mashinalari</a></li>
+                <li><a href="#">Pishiriq panellari</a></li>
+                <li><a href="#">Smart soatlar</a></li>
+                <li><a href="#">Konditseonerlar</a></li>
+                <li><a href="#">Dazmollar</a></li>
+                <li><a href="#">Blende</a></li>
+            </ul>
+        </div>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./picture/main__carsule-img1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./picture/main__carsule-img2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./picture/main__carsule-img3.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+
+    <section class="ommabop">
+        <div class="container">
+            <div class="title">
+                <h2>Ommabop kategoriyalar</h2>
+            </div>
+            <div class="block d-flex align-items-center gap-3">
+                <div class="item btn d-flex flex-row gap-3"
+                    style="width: 226px; padding-top: 20px; border: 1px solid #ccc; border-radius: 10px;  font-size: 16px; height: 80px;">
+                    <i class="fa-solid fa-laptop"
+                        style="background-color: lightpink;padding: 10px;height: 40px;border-radius:10px; color: red;"></i>
+                    <p>Barcha Noutbuklar</p>
+                </div>
+                <div class="item btn d-flex flex-row gap-3"
+                    style="width: 226px;  padding-top: 20px; border: 1px solid #ccc; border-radius: 10px; font-size: 16px; height: 80px;">
+                    <i class="fa-solid fa-tv"
+                        style="background-color: lightpink;padding: 10px;height: 40px;border-radius:10px; color: red;"></i>
+                    <p>Barcha televizorlar</p>
+                </div>
+                <div class="item btn d-flex flex-row gap-3"
+                    style="width: 226px;  padding-top: 20px; border: 1px solid #ccc; border-radius: 10px;  font-size: 16px; height: 80px;">
+                    <i class="fa-solid fa-tv"
+                        style="background-color: lightpink;padding: 10px;height: 40px;border-radius:10px; color: red;"></i>
+                    <p>Changyutgichlar</p>
+                </div>
+                <div class="item btn d-flex flex-row gap-3"
+                    style="width: 226px;  padding-top: 20px; border: 1px solid #ccc; border-radius: 10px;  font-size: 16px; height: 80px;">
+                    <i class="fa-solid fa-tv"
+                        style="background-color: lightpink;padding: 10px;height: 40px;border-radius:10px; color: red;"></i>
+                    <p> Kir yuvish mashina</p>
+                </div>
+                <div class="item btn d-flex flex-row gap-3"
+                    style="width: 226px;  padding-top: 20px; border: 1px solid #ccc; border-radius: 10px;  font-size: 16px; height: 80px;">
+                    <i class="fa-solid fa-tv"
+                        style="background-color: lightpink;padding: 10px;height: 40px;border-radius:10px; color: red;"></i>
+                    <p>Muzlatgichlar</p>
+                </div>
+                <div class="item btn d-flex flex-row gap-3"
+                    style="width: 226px;  padding-top: 20px; border: 1px solid #ccc; border-radius: 10px;  font-size: 16px; height: 80px;">
+                    <i class="fa-solid fa-tv"
+                        style="background-color: lightpink;padding: 10px;height: 40px;border-radius:10px; color: red;"></i>
+                    <p>Smartfonlar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="artel" style="margin-top: 50px;">
+        <div class="container">
+            <div class="title">
+                <h2 class="fw-bolder">"Artel - Zavod narxida"</h2>
+                <div class="btns d-flex gap-3">
+                    <button class="btn btn-light p-1" style="color: lightslategray;">Televizor</button>
+                    <button class="btn btn-light p-1" style="color: lightslategray;">Muzlatgich</button>
+                    <button class="btn btn-light p-1" style="color: lightslategray;">Kir uvish mashinasi avtomt</button>
+                    <button class="btn btn-light p-1" style="color: lightslategray;">Changyutgich</button>
+                    <button class="btn btn-light p-1" style="color: lightslategray;">Plita</button>
+                </div>
+            </div>
+            <div class="block">
+                <div class="card">
+                    <button class="btn btn-success button">Zavod Narxida</button>
+                    <img src="./picture/tvimg.jpg" alt="">
+                    <h6 class="text-decoration-line-through">4 505 000so'm</h6>
+                    <b class="text-dark mb-2">4 017 000 so'm</b>
+                    <button class="btn btn-outline-dark p-0">461 955so'mdan/oyiga</button>
+                    <h6 style="margin-top: 10px; cursor: pointer;">120 510 so'm bonus</h6>
+                    <p>Televizor shivaki 49/9000</p>
+                    <img src="./picture/star-group.png" width="96" alt="star-group">
+                    <div class="btns mt-3">
+                        <button style="width: 70px;" class="btn btn-danger"><ion-icon name="cart-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="scale-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="heart-outline" id="icon"></ion-icon></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <button class="btn btn-success button">Zavod Narxida</button>
+                    <img src="./picture/tv.jpg" alt="">
+                    <h6 class="text-decoration-line-through">4 505 000so'm</h6>
+                    <b class="text-dark mb-2">4 017 000 so'm</b>
+                    <button class="btn btn-outline-dark p-0">461 955so'mdan/oyiga</button>
+                    <h6 style="margin-top: 10px; cursor: pointer;">120 510 so'm bonus</h6>
+                    <p>Televizor Artel 234</p>
+                    <img src="./picture/star-group.png" width="96" alt="star-group">
+                    <div class="btns mt-3">
+                        <button style="width: 70px;" class="btn btn-danger"><ion-icon name="cart-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="scale-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="heart-outline" id="icon"></ion-icon></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <button class="btn btn-success button">Zavod Narxida</button>
+                    <img src="./picture/tvimg.jpg" alt="">
+                    <h6 class="text-decoration-line-through">4 505 000so'm</h6>
+                    <b class="text-dark mb-2">4 017 000 so'm</b>
+                    <button class="btn btn-outline-dark p-0">461 955so'mdan/oyiga</button>
+                    <h6 style="margin-top: 10px; cursor: pointer;">120 510 so'm bonus</h6>
+                    <p>Televizor shivaki 49/9000</p>
+                    <img src="./picture/star-group.png" width="96" alt="star-group">
+                    <div class="btns mt-3">
+                        <button style="width: 70px;" class="btn btn-danger"><ion-icon name="cart-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="scale-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="heart-outline" id="icon"></ion-icon></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <button class="btn btn-success button">Zavod Narxida</button>
+                    <img src="./picture/tv.jpg" alt="">
+                    <h6 class="text-decoration-line-through">4 505 000so'm</h6>
+                    <b class="text-dark mb-2">4 017 000 so'm</b>
+                    <button class="btn btn-outline-dark p-0">461 955so'mdan/oyiga</button>
+                    <h6 style="margin-top: 10px; cursor: pointer;">120 510 so'm bonus</h6>
+                    <p>Televizor shivaki 49/9000</p>
+                    <img src="./picture/star-group.png" width="96" alt="star-group">
+                    <div class="btns mt-3">
+                        <button style="width: 70px;" class="btn btn-danger"><ion-icon name="cart-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="scale-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="heart-outline" id="icon"></ion-icon></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <button class="btn btn-success button">Zavod Narxida</button>
+                    <img src="./picture/tvimg.jpg" alt="">
+                    <h6 class="text-decoration-line-through">4 505 000so'm</h6>
+                    <b class="text-dark mb-2">4 017 000 so'm</b>
+                    <button class="btn btn-outline-dark p-0">461 955so'mdan/oyiga</button>
+                    <h6 style="margin-top: 10px; cursor: pointer;">120 510 so'm bonus</h6>
+                    <p>Televizor shivaki 49/9000</p>
+                    <img src="./picture/star-group.png" width="96" alt="star-group">
+                    <div class="btns mt-3">
+                        <button style="width: 70px;" class="btn btn-danger"><ion-icon name="cart-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="scale-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="heart-outline" id="icon"></ion-icon></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <button class="btn btn-success button">Zavod Narxida</button>
+                    <img src="./picture/tv.jpg" alt="">
+                    <h6 class="text-decoration-line-through">4 505 000so'm</h6>
+                    <b class="text-dark mb-2">4 017 000 so'm</b>
+                    <button class="btn btn-outline-dark p-0">461 955so'mdan/oyiga</button>
+                    <h6 style="margin-top: 10px; cursor: pointer;">120 510 so'm bonus</h6>
+                    <p>Televizor shivaki 49/9000</p>
+                    <img src="./picture/star-group.png" width="96" alt="star-group">
+                    <div class="btns mt-3">
+                        <button style="width: 70px;" class="btn btn-danger"><ion-icon name="cart-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="scale-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="heart-outline" id="icon"></ion-icon></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="yangiliklar" style="margin-top: 50px;">
+        <div class="container">
+            <div class="title">
+                <h2 class="fw-bolder">Yangiliklar</h2>
+            </div>
+            <div class="block">
+                <div class="card">
+                    <button class="btn btn-success button">yangi</button>
+                    <img src="./picture/holodilnik1.png" alt="">
+                    <h6 class="text-decoration-line-through">4 505 000so'm</h6>
+                    <b class="text-dark mb-2">4 017 000 so'm</b>
+                    <button class="btn btn-outline-dark p-0">461 955so'mdan/oyiga</button>
+                    <h6 style="margin-top: 10px; cursor: pointer;">120 510 so'm bonus</h6>
+                    <p>Televizor shivaki 49/9000</p>
+                    <img src="./picture/star-group.png" width="96" alt="star-group">
+                    <div class="btns mt-3">
+                        <button style="width: 70px;" class="btn btn-danger"><ion-icon name="cart-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="scale-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="heart-outline" id="icon"></ion-icon></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <button class="btn btn-success button">yangi</button>
+                    <img src="./picture/holodilnik1.png" alt="">
+                    <h6 class="text-decoration-line-through">4 505 000so'm</h6>
+                    <b class="text-dark mb-2">4 017 000 so'm</b>
+                    <button class="btn btn-outline-dark p-0">461 955so'mdan/oyiga</button>
+                    <h6 style="margin-top: 10px; cursor: pointer;">120 510 so'm bonus</h6>
+                    <p>Televizor Artel 234</p>
+                    <img src="./picture/star-group.png" width="96" alt="star-group">
+                    <div class="btns mt-3">
+                        <button style="width: 70px;" class="btn btn-danger"><ion-icon name="cart-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="scale-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="heart-outline" id="icon"></ion-icon></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <button class="btn btn-success button">yangi</button>
+                    <img src="./picture/holodilnik1.png" alt="">
+                    <h6 class="text-decoration-line-through">4 505 000so'm</h6>
+                    <b class="text-dark mb-2">4 017 000 so'm</b>
+                    <button class="btn btn-outline-dark p-0">461 955so'mdan/oyiga</button>
+                    <h6 style="margin-top: 10px; cursor: pointer;">120 510 so'm bonus</h6>
+                    <p>Televizor shivaki 49/9000</p>
+                    <img src="./picture/star-group.png" width="96" alt="star-group">
+                    <div class="btns mt-3">
+                        <button style="width: 70px;" class="btn btn-danger"><ion-icon name="cart-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="scale-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="heart-outline" id="icon"></ion-icon></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <button class="btn btn-success button">yangi</button>
+                    <img src="./picture/holodilnik1.png" alt="">
+                    <h6 class="text-decoration-line-through">4 505 000so'm</h6>
+                    <b class="text-dark mb-2">4 017 000 so'm</b>
+                    <button class="btn btn-outline-dark p-0">461 955so'mdan/oyiga</button>
+                    <h6 style="margin-top: 10px; cursor: pointer;">120 510 so'm bonus</h6>
+                    <p>Televizor shivaki 49/9000</p>
+                    <img src="./picture/star-group.png" width="96" alt="star-group">
+                    <div class="btns mt-3">
+                        <button style="width: 70px;" class="btn btn-danger"><ion-icon name="cart-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="scale-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="heart-outline" id="icon"></ion-icon></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <button class="btn btn-success button">yangi</button>
+                    <img src="./picture/holodilnik1.png" alt="">
+                    <h6 class="text-decoration-line-through">4 505 000so'm</h6>
+                    <b class="text-dark mb-2">4 017 000 so'm</b>
+                    <button class="btn btn-outline-dark p-0">461 955so'mdan/oyiga</button>
+                    <h6 style="margin-top: 10px; cursor: pointer;">120 510 so'm bonus</h6>
+                    <p>Televizor shivaki 49/9000</p>
+                    <img src="./picture/star-group.png" width="96" alt="star-group">
+                    <div class="btns mt-3">
+                        <button style="width: 70px;" class="btn btn-danger"><ion-icon name="cart-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="scale-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="heart-outline" id="icon"></ion-icon></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <button class="btn btn-success button">yangi</button>
+                    <img src="./picture/holodilnik1.png" alt="">
+                    <h6 class="text-decoration-line-through">4 505 000so'm</h6>
+                    <b class="text-dark mb-2">4 017 000 so'm</b>
+                    <button class="btn btn-outline-dark p-0">461 955so'mdan/oyiga</button>
+                    <h6 style="margin-top: 10px; cursor: pointer;">120 510 so'm bonus</h6>
+                    <p>Televizor shivaki 49/9000</p>
+                    <img src="./picture/star-group.png" width="96" alt="star-group">
+                    <div class="btns mt-3">
+                        <button style="width: 70px;" class="btn btn-danger"><ion-icon name="cart-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="scale-outline" id="icon"></ion-icon></button>
+                        <button class="btn btn-light"><ion-icon name="heart-outline" id="icon"></ion-icon></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
