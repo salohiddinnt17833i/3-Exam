@@ -197,10 +197,6 @@ main
             color: lightslategray;
             border: none;
             transition: all 0.4s linear;
-            &:hover
-            {
-                border: 1px solid rgb(169, 180, 190);
-            }
             .button
             {
                 width: 100px;
@@ -231,10 +227,6 @@ main
             color: lightslategray;
             border: none;
             transition: all 0.4s linear;
-            &:hover
-            {
-                border: 1px solid rgb(169, 180, 190);
-            }
             .button
             {
                 width: 100px;
@@ -262,7 +254,22 @@ main
         }
     }
 }
-
+.noutbuklar
+{
+    .block
+    {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        .card
+        {
+            max-width: 200px;
+            width: 100%;
+            border: none;
+            color:lightslategray;
+            text-align: center;
+        }
+    }
+}
 
 
 @media screen and (max-width:1040px) {
