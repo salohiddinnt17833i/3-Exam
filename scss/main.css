@@ -154,7 +154,8 @@ main {
 }
 
 .artel .block {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   gap: 20px;
   margin-top: 20px;
 }
@@ -178,7 +179,8 @@ main {
 }
 
 .yangiliklar .block {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   gap: 20px;
   margin-top: 20px;
 }
@@ -199,6 +201,17 @@ main {
 }
 .yangiliklar .block .card h6 {
   font-size: 11px;
+}
+
+.xitlar .block {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.xitlar .block .card {
+  max-width: 215px;
+  font-size: 11px;
+  padding: 10px;
+  border: none;
 }
 
 @media screen and (max-width: 1040px) {

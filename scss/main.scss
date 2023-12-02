@@ -184,7 +184,9 @@ main
 {
     .block
     {
-        display: flex;
+        
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
         gap: 20px;
         margin-top: 20px;
         .card
@@ -216,7 +218,9 @@ main
 {
     .block
     {
-        display: flex;
+        
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
         gap: 20px;
         margin-top: 20px;
         .card
@@ -243,6 +247,22 @@ main
         }
     }
 }
+.xitlar
+{
+    .block
+    {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        .card
+        {
+            max-width: 215px;
+            font-size: 11px;
+            padding: 10px;
+            border: none;
+        }
+    }
+}
+
 
 
 @media screen and (max-width:1040px) {
