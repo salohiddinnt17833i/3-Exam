@@ -1,3 +1,10 @@
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 * {
   padding: 0px;
   margin: 0px;
@@ -5,6 +12,8 @@
 
 a {
   text-decoration: none;
+  -webkit-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
   transition: all 0.4s linear;
   color: lightslategray;
 }
@@ -31,9 +40,15 @@ body {
   max-height: 72px;
   height: 100%;
   padding: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .top__header .container-xxl .responsive__header {
   position: absolute;
@@ -43,9 +58,15 @@ body {
   padding-top: 50px;
   width: 100%;
   height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   font-size: 25px;
 }
 .top__header .container-xxl .responsive__header .checkbox {
@@ -63,14 +84,22 @@ body {
   color: blue;
 }
 .top__header .container-xxl .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 20px;
 }
 .top__header .container-xxl .right a {
   font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 9px;
   color: lightslategray;
 }
@@ -78,17 +107,27 @@ body {
   color: black;
 }
 .top__header .container-xxl .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .top__header .container-xxl .left ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 24px;
 }
 .top__header .container-xxl .left ul a {
   font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 13px;
   color: lightslategray;
 }
@@ -113,8 +152,12 @@ body {
 }
 .top__header .head__header form {
   width: 577px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 10px;
   border: 1px solid #ccc;
   padding: 0px 10px;
@@ -134,8 +177,13 @@ body {
   font-size: 30px;
 }
 .top__header .head__header .btn-group button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .top__header .head__header .btn-group button #icon {
   margin: 0px auto;
@@ -154,7 +202,9 @@ main {
 }
 
 .artel .block {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
   grid-template-columns: repeat(6, 1fr);
   gap: 20px;
   margin-top: 20px;
@@ -165,6 +215,8 @@ main {
   padding: 10px;
   color: lightslategray;
   border: none;
+  -webkit-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
   transition: all 0.4s linear;
 }
 .artel .block .card .button {
@@ -176,7 +228,9 @@ main {
 }
 
 .yangiliklar .block {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
   grid-template-columns: repeat(6, 1fr);
   gap: 20px;
   margin-top: 20px;
@@ -187,6 +241,8 @@ main {
   padding: 10px;
   color: lightslategray;
   border: none;
+  -webkit-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
   transition: all 0.4s linear;
 }
 .yangiliklar .block .card .button {
@@ -198,7 +254,9 @@ main {
 }
 
 .xitlar .block {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (1fr)[6];
   grid-template-columns: repeat(6, 1fr);
 }
 .xitlar .block .card {
@@ -209,7 +267,9 @@ main {
 }
 
 .noutbuklar .block {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (1fr)[6];
   grid-template-columns: repeat(6, 1fr);
 }
 .noutbuklar .block .card {
@@ -224,7 +284,9 @@ main {
   margin-top: 50px;
 }
 .brendlar .block {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
   grid-template-columns: repeat(6, 1fr);
   gap: 20px;
 }
@@ -258,7 +320,9 @@ footer .container .block .card {
   background-color: rgb(6, 7, 32);
 }
 footer .container .block .card .btns {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 20px 1fr;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
@@ -277,28 +341,39 @@ footer .container .block .card a:hover {
 
 @media screen and (max-width: 1276px) {
   .ommabop .container .block {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: (1fr)[4];
     grid-template-columns: repeat(4, 1fr);
   }
   .brendlar .block {
     margin-left: auto;
     margin-right: auto;
+    -ms-grid-columns: (1fr)[3];
     grid-template-columns: repeat(3, 1fr);
   }
   .artel .block {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: (1fr)[4];
     grid-template-columns: repeat(4, 1fr);
   }
   .yangiliklar .block {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: (1fr)[4];
     grid-template-columns: repeat(4, 1fr);
   }
   .xitlar .block {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: (1fr)[4];
     grid-template-columns: repeat(4, 1fr);
   }
   .noutbuklar .block {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 10% 1fr 10% 1fr 10% 1fr;
     grid-template-columns: repeat(4, 1fr);
     gap: 10%;
   }
@@ -377,22 +452,31 @@ footer .container .block .card a:hover {
   .brendlar .block {
     margin-left: auto;
     margin-right: auto;
+    -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
   }
   .artel .block {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
   }
   .yangiliklar .block {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
   }
   .xitlar .block {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
   }
   .noutbuklar .block {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 10% 1fr;
     grid-template-columns: repeat(2, 1fr);
     gap: 10%;
   }
